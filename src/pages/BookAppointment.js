@@ -100,7 +100,7 @@ function BookAppointment() {
           status: "Pending",
         }),
       });
-      const data = await response.json();
+      await response.json();
       alert(
         "Appointment booked successfully!\nPatient ID: " +
           patientID +
