@@ -17,7 +17,7 @@ import com.dentistatdoor.backend.repository.AppointmentRepository;
 
 @RestController
 @RequestMapping("/api/appointments")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://dentist-at-door.netlify.app"})
 public class AppointmentController {
 
     @Autowired

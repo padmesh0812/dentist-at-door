@@ -15,7 +15,7 @@ import com.dentistatdoor.backend.repository.PatientRepository;
 
 @RestController
 @RequestMapping("/api/patients")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://dentist-at-door.netlify.app"})
 public class PatientController {
 
     @Autowired
