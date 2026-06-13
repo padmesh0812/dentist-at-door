@@ -1,0 +1,38 @@
+.footer {
+  background: #00264d;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+.footer p {
+  margin-bottom: 4px;
+}
+
+.footer-icons {
+  margin-top: 10px;
+}
+
+.footer-icons a {
+  color: #66ccff;
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.footer-icons a:hover {
+  color: #ffcc00;
+}
+
+.footer-icons i {
+  font-size: 28px;
+  margin: 0 12px;
+  color: #66ccff;
+  transition: 0.3s;
+}
+
+.footer-icons i:hover {
+  color: white;
+  transform: scale(1.2);
+}

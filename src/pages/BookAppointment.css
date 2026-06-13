@@ -1,0 +1,103 @@
+.book-wrapper {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.new-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #1e90ff;
+  color: white;
+  transition: 0.3s;
+}
+
+.returning-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #f5cc27;
+  color: white;
+  transition: 0.3s;
+}
+
+.new-btn:hover,
+.returning-btn:hover {
+  opacity: 0.9;
+}
+
+.book-form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.book-form h2 {
+  color: #004080;
+  margin-bottom: 1rem;
+}
+
+.book-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.book-form input,
+.book-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 12px;
+  background: #004080;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background: #003060;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.service-list li {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #333;
+}
+
+.service-list input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
