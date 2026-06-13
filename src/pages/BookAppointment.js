@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./BookAppointment.css";
 
-const API_URL = "http://localhost:8080/api";
+const API_URL = "https://dentist-at-door-production.up.railway.app/api";
 
 function BookAppointment() {
   const [mode, setMode] = useState(null);

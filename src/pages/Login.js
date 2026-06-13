@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
 
-const API_URL = "http://localhost:8080/api";
+const API_URL = "https://dentist-at-door-production.up.railway.app/api";
 
 function Login() {
   const [activeTab, setActiveTab] = useState("patient");
